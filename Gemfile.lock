@@ -1,13 +1,13 @@
 PATH
   remote: .
   specs:
-    phonenumber (0.1.0)
+    phonenumber_jp (0.1.2)
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.3)
-    rake (10.5.0)
+    rake (13.0.1)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
@@ -26,10 +26,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.16)
-  phonenumber!
-  rake (~> 10.0)
+  bundler
+  phonenumber_jp!
+  rake (>= 12.3.3)
   rspec
 
 BUNDLED WITH
-   1.16.1
+   2.1.2
